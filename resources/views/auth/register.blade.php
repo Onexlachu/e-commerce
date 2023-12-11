@@ -32,7 +32,8 @@
                                     <h4 class="card-title">Register</h4>
 
                                 </div><!--end card-header-->
-                                <form action="{{route('register')}}" method="post">
+
+                                <form action="{{route('register')}}" method="POST">
                                     @csrf
 
                                     <div class="card-body">
