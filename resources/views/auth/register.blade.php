@@ -42,7 +42,7 @@
                                                 <div class="mb-3 row">
                                                     <label for="example-text-input" class="col-sm-6 col-form-label text-end">Name</label>
                                                     <div class="col-sm-5">
-                                                        <input class="form-control" type="text" name="name" placeholder="nelson">
+                                                        <input class="form-control" type="text" name="name">
                                                     </div>
                                                 </div>
                                                 <div class="mb-3 row">

@@ -1,5 +1,5 @@
 <x-app-layout>
-    <x-slot name="dynamic">
+    <x-slot name="admin">
         <div class="page-wrapper">
 
             <!-- Page Content-->
