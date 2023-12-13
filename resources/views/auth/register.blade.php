@@ -1,108 +1,55 @@
 <x-guest-layout>
     <x-slot name="dynamic">
 
-        <div class="page-wrapper">
+        <div class="row" style="margin-top: 150px; margin-left:250px">
+            <div class="col-md-9">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 style="text-align: center;">Register</h3>
+                    </div><!--end card-header-->
+                    <form action="{{Route('register')}}" method="POST">
+                        @csrf
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-12">
 
-            <!-- Page Content-->
-            <div class="page-content-tab">
-
-                <div class="container-fluid">
-                    <!-- Page-Title -->
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="page-title-box">
-                                <div class="float-end">
-                                    <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a href="#">Metrica</a></li>
-                                        <li class="breadcrumb-item"><a href="#">Forms</a></li>
-                                        <li class="breadcrumb-item active">Form Elements</li>
-                                    </ol>
-                                </div>
-                                <h4 class="page-title">Form Elements</h4>
-                            </div>
-                            <!--end page-title-box-->
-                        </div>
-                        <!--end col-->
-                    </div>
-                    <!-- end page title end breadcrumb -->
-                    <div class="row" style="margin-top: 50px;">
-                        <div class="col-lg-12">
-                            <div class="card">
-                                <div class="card-header">
-                                    <h4 class="card-title">Register</h4>
-
-                                </div><!--end card-header-->
-
-                                <form action="{{route('register')}}" method="POST">
-                                    @csrf
-
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-lg-8">
-                                                <div class="mb-3 row">
-                                                    <label for="example-text-input" class="col-sm-6 col-form-label text-end">Name</label>
-                                                    <div class="col-sm-5">
-                                                        <input class="form-control" type="text" name="name">
-                                                    </div>
-                                                </div>
-                                                <div class="mb-3 row">
-                                                    <label for="example-email-input" class="col-sm-6 col-form-label text-end">Email</label>
-                                                    <div class="col-sm-5">
-                                                        <input class="form-control" type="email" name="email">
-                                                    </div>
-                                                </div>
-                                                <div class="mb-3 row">
-                                                    <label for="example-tel-input" class="col-sm-6 col-form-label text-end">Password</label>
-                                                    <div class="col-sm-5">
-                                                        <input class="form-control" type="password" name="password">
-                                                    </div>
-                                                </div>
-                                                <div class="mb-3 row">
-                                                    <label for="example-password-input" class="col-sm-6 col-form-label text-end">Password Confirm</label>
-                                                    <div class="col-sm-5">
-                                                        <input class="form-control" type="password" name="password_confirmation">
-                                                    </div>
-                                                </div>
-                                            </div>
+                                    <div class="mb-3 row">
+                                        <label for="example-email-input" class="col-sm-2 col-form-label text-end">Name</label>
+                                        <div class="col-sm-10">
+                                            <input class="form-control" type="text" name="name">
                                         </div>
-                                    </div><!--end card-body-->
-                                    <div class="col-sm-12">
-                                        <button type="submit" class="form-control" name="login">Register</button>
-
-
-
+                                        <x-input-error :messages="$errors->get('name')" />
                                     </div>
-                                </form>
-                            </div><!--end card-->
-                        </div><!--end col-->
-                    </div><!--end row-->
+                                    <div class="mb-3 row">
+                                        <label for="example-tel-input" class="col-sm-2 col-form-label text-end">email</label>
+                                        <div class="col-sm-10">
+                                            <input class="form-control" type="email" name="email">
+                                        </div>
+                                        <x-input-error :messages="$errors->get('email')" />
+                                    </div>
+                                    <div class="mb-3 row">
+                                        <label for="example-password-input" class="col-sm-2 col-form-label text-end">Password</label>
+                                        <div class="col-sm-10">
+                                            <input class="form-control" type="password" name="password">
+                                        </div>
+                                        <x-input-error :messages="$errors->get('password')" />
+                                    </div>
+                                    <div class="mb-3 row">
+                                        <label for="example-number-input" class="col-sm-2 col-form-label text-end">confirm password</label>
+                                        <div class="col-sm-10">
+                                            <input class="form-control" type="password" name="confirm_password">
+                                        </div>
+                                        <x-input-error :messages="$errors->get('confirm_password')" />
+                                    </div>
 
-
-
-
-
-
-
-
-
-
-
-                </div><!-- container -->
-
-                <!--Start Rightbar-->
-                <!--Start Rightbar/offcanvas-->
-
-                <!--end Rightbar/offcanvas-->
-                <!--end Rightbar-->
-
-                <!--Start Footer-->
-                <!-- Footer Start -->
-
-            </div>
-            <!-- end page content -->
-        </div>
-        <!-- end page-wrapper -->
-
+                                </div>
+                            </div>
+                            <button type="submit" class="woocommerce-button button woocommerce-form-login__submit" name="login"> Register</button>
+                        </div><!--end card-body-->
+                </div><!--end card-->
+            </div><!--end col-->
+        </div><!--end row-->
+        </form>
     </x-slot>
 
 </x-guest-layout>

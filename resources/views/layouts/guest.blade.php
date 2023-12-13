@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Mirrored from static.laralink.com/html/sattiyas/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 06 Dec 2023 13:33:28 GMT -->
+<!-- head files-->
 
 <head>
     <meta charset="utf-8" />
@@ -19,34 +19,11 @@
     <!-- Custom css -->
     <link rel="stylesheet" href="admin/assets/css/style.css" />
 </head>
+<!-- end head files -->
 
 <body>
-    <!-- Start Preloader -->
-    <div class="cs_perloader">
-        <div class="cs_perloader_in">
-            <svg class="cs_cart_animation" role="img" aria-label="Sattiyas Preloader" viewBox="0 0 128 128" width="128px" height="128px" xmlns="http://www.w3.org/2000/svg">
-                <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="8">
-                    <g class="cs_cart_track" stroke="hsla(0,10%,10%,0.1)">
-                        <polyline points="4,4 21,4 26,22 124,22 112,64 35,64 39,80 106,80" />
-                        <circle cx="43" cy="111" r="13" />
-                        <circle cx="102" cy="111" r="13" />
-                    </g>
-                    <g class="cs_cart_lines" stroke="currentColor">
-                        <polyline class="cs_cart_top" points="4,4 21,4 26,22 124,22 112,64 35,64 39,80 106,80" stroke-dasharray="338 338" stroke-dashoffset="-338" />
-                        <g class="cs_cart_wheel_1" transform="rotate(-90,43,111)">
-                            <circle class="cs_cart_wheel_stroke" cx="43" cy="111" r="13" stroke-dasharray="81.68 81.68" stroke-dashoffset="81.68" />
-                        </g>
-                        <g class="cs_cart_wheel_2" transform="rotate(90,102,111)">
-                            <circle class="cs_cart_wheel_stroke" cx="102" cy="111" r="13" stroke-dasharray="81.68 81.68" stroke-dashoffset="81.68" />
-                        </g>
-                    </g>
-                </g>
-            </svg>
-            <span class="cs_perloader_text">Welcome to Sattiyas. Loading...</span>
-        </div>
-    </div>
-    <!-- End Preloader -->
-    <!-- Start header -->
+
+    <!-- heading files -->
     <header class="cs_site_header cs_style_1 cs_color_1 cs_primary_bg cs_site_header_full_width cs_sticky_header">
         <div class="cs_top_header cs_primary_color">
             <div class="container-fluid">
@@ -54,7 +31,7 @@
                     <div class="cs_top_header_left">
                         <p class="cs_medium mb-0">
                             Support :
-                            <a href="admin/https://static.laralink.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="8bfbf9e4effee8ffcbf8eaffffe2f2eaf8a5e8e4e6">[email&#160;protected]</a>
+                            <a href="https://static.laralink.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="8bfbf9e4effee8ffcbf8eaffffe2f2eaf8a5e8e4e6">[email&#160;protected]</a>
                         </p>
                     </div>
                     <div class="cs_top_header_center">
@@ -63,19 +40,19 @@
                                 <b class="cs_text_slide cs_medium is-visible">
                                     <span>100% Happy return policy</span>
                                     <span>
-                                        <a href="admin/about.html" class="cs_text_slide_btn">Learn More</a>
+                                        <a href="about.html" class="cs_text_slide_btn">Learn More</a>
                                     </span>
                                 </b>
                                 <b class="cs_text_slide cs_medium">
                                     <span>Big sale offer with 50%</span>
                                     <span>
-                                        <a href="admin/shop.html" class="cs_text_slide_btn">Learn More</a>
+                                        <a href="shop.html" class="cs_text_slide_btn">Learn More</a>
                                     </span>
                                 </b>
                                 <b class="cs_text_slide cs_medium">
                                     <span>New arrival item for you</span>
                                     <span>
-                                        <a href="admin/shop.html" class="cs_text_slide_btn">Learn More</a>
+                                        <a href="shop.html" class="cs_text_slide_btn">Learn More</a>
                                     </span>
                                 </b>
                             </span>
@@ -91,101 +68,101 @@
             <div class="container-fluid">
                 <div class="cs_main_header_in">
                     <div class="cs_main_header_left">
-                        <a class="cs_site_branding" href="admin/index.html">
-                            <img src="/admin/assets/img/logo.svg" alt="Logo" />
+                        <a class="cs_site_branding" href="index.html">
+                            <img src="admin/assets/img/logo.svg" alt="Logo" />
                         </a>
                     </div>
                     <div class="cs_main_header_center">
                         <div class="cs_nav cs_medium">
                             <ul class="cs_nav_list">
                                 <li class="menu-item-has-children">
-                                    <a href="admin/index.html">Home</a>
+                                    <a href="index.html">Home</a>
                                     <ul>
-                                        <li><a href="admin/index.html">Fashion V1</a></li>
-                                        <li><a href="admin/home-v2.html">Fashion V2</a></li>
-                                        <li><a href="admin/home-v3.html">Jewelry</a></li>
+                                        <li><a href="index.html">Fashion V1</a></li>
+                                        <li><a href="home-v2.html">Fashion V2</a></li>
+                                        <li><a href="home-v3.html">Jewelry</a></li>
                                     </ul>
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a href="admin/shop.html">Product</a>
+                                    <a href="shop.html">Product</a>
                                     <ul>
-                                        <li><a href="admin/shop.html">All Product</a></li>
-                                        <li><a href="admin/shop_sidebar.html">Shop Sidebar</a></li>
+                                        <li><a href="shop.html">All Product</a></li>
+                                        <li><a href="shop_sidebar.html">Shop Sidebar</a></li>
                                         <li>
-                                            <a href="admin/product_details.html">Product Details</a>
+                                            <a href="product_details.html">Product Details</a>
                                         </li>
                                     </ul>
                                 </li>
-                                <li><a href="admin/blog.html">Blog</a></li>
+                                <li><a href="blog.html">Blog</a></li>
                                 <li class="menu-item-has-children">
-                                    <a href="admin/#">Pages</a>
+                                    <a href="#">Pages</a>
                                     <ul>
-                                        <li><a href="admin/about.html">About</a></li>
-                                        <li><a href="admin/blog_details.html">Blog Details</a></li>
-                                        <li><a href="admin/cart.html">Cart</a></li>
-                                        <li><a href="admin/checkout.html">Checkout</a></li>
-                                        <li><a href="admin/success.html">Success</a></li>
-                                        <li><a href="admin/wishlist.html">Wishlist</a></li>
+                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="blog_details.html">Blog Details</a></li>
+                                        <li><a href="cart.html">Cart</a></li>
+                                        <li><a href="checkout.html">Checkout</a></li>
+                                        <li><a href="success.html">Success</a></li>
+                                        <li><a href="wishlist.html">Wishlist</a></li>
                                     </ul>
                                 </li>
                                 <li class="menu-item-has-children cs_mega_menu">
-                                    <a href="admin/#">MegaMenu</a>
+                                    <a href="#">MegaMenu</a>
                                     <ul class="cs_mega_wrapper">
                                         <li class="menu-item-has-children">
-                                            <a href="admin/#">Category One</a>
+                                            <a href="#">Category One</a>
                                             <ul>
-                                                <li><a href="admin/shop.html">Women's Clothing</a></li>
-                                                <li><a href="admin/shop.html">Men's Clothing</a></li>
-                                                <li><a href="admin/shop.html">Kids' Clothing</a></li>
+                                                <li><a href="shop.html">Women's Clothing</a></li>
+                                                <li><a href="shop.html">Men's Clothing</a></li>
+                                                <li><a href="shop.html">Kids' Clothing</a></li>
                                                 <li>
-                                                    <a href="admin/shop.html">Shoes (Men, Women, Kids)</a>
+                                                    <a href="shop.html">Shoes (Men, Women, Kids)</a>
                                                 </li>
                                                 <li>
-                                                    <a href="admin/shop.html">Accessories (e.g., hats, scarves)</a>
+                                                    <a href="shop.html">Accessories (e.g., hats, scarves)</a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li class="menu-item-has-children">
-                                            <a href="admin/#">Category Two</a>
+                                            <a href="#">Category Two</a>
                                             <ul>
-                                                <li><a href="admin/shop.html">Activewear</a></li>
-                                                <li><a href="admin/shop.html">Formal Wear</a></li>
-                                                <li><a href="admin/shop.html">Casual Wear</a></li>
+                                                <li><a href="shop.html">Activewear</a></li>
+                                                <li><a href="shop.html">Formal Wear</a></li>
+                                                <li><a href="shop.html">Casual Wear</a></li>
                                                 <li>
-                                                    <a href="admin/shop.html">Outerwear (Jackets, Coats)</a>
+                                                    <a href="shop.html">Outerwear (Jackets, Coats)</a>
                                                 </li>
-                                                <li><a href="admin/shop.html">Swimwear</a></li>
+                                                <li><a href="shop.html">Swimwear</a></li>
                                             </ul>
                                         </li>
                                         <li class="menu-item-has-children">
-                                            <a href="admin/#">Category Three</a>
+                                            <a href="#">Category Three</a>
                                             <ul>
                                                 <li>
-                                                    <a href="admin/shop.html">Lingerie and Sleepwear</a>
+                                                    <a href="shop.html">Lingerie and Sleepwear</a>
                                                 </li>
-                                                <li><a href="admin/shop.html">Maternity Wear</a></li>
-                                                <li><a href="admin/shop.html">Plus Size Clothing</a></li>
-                                                <li><a href="admin/shop.html">Sustainable Fashion</a></li>
+                                                <li><a href="shop.html">Maternity Wear</a></li>
+                                                <li><a href="shop.html">Plus Size Clothing</a></li>
+                                                <li><a href="shop.html">Sustainable Fashion</a></li>
                                                 <li>
-                                                    <a href="admin/shop.html">Vintage/Second-hand Clothing</a>
+                                                    <a href="shop.html">Vintage/Second-hand Clothing</a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li class="menu-item-has-children">
-                                            <a href="admin/#">Category Four</a>
+                                            <a href="#">Category Four</a>
                                             <ul>
-                                                <li><a href="admin/shop.html">Sports Apparel</a></li>
-                                                <li><a href="admin/shop.html">Workwear</a></li>
-                                                <li><a href="admin/shop.html">Designer Clothing</a></li>
-                                                <li><a href="admin/shop.html">Seasonal Collections</a></li>
-                                                <li><a href="admin/shop.html">Costumes and Cosplay</a></li>
+                                                <li><a href="shop.html">Sports Apparel</a></li>
+                                                <li><a href="shop.html">Workwear</a></li>
+                                                <li><a href="shop.html">Designer Clothing</a></li>
+                                                <li><a href="shop.html">Seasonal Collections</a></li>
+                                                <li><a href="shop.html">Costumes and Cosplay</a></li>
                                             </ul>
                                         </li>
                                     </ul>
                                 </li>
-                                <li><a href="admin/contact.html">Contact</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="login">Login</a></li>
                                 <li><a href="register">Register</a></li>
-                                <li><a href="login">login</a></li>
                             </ul>
                         </div>
                     </div>
@@ -194,10 +171,10 @@
                             <button type="button" class="cs_action_icon cs_header_search_btn">
                                 <i class="fa-solid fa-magnifying-glass"></i>
                             </button>
-                            <a href="admin/#" class="cs_action_icon cs_modal_btn">
+                            <a href="#" class="cs_action_icon cs_modal_btn">
                                 <i class="fa-regular fa-circle-user"></i>
                             </a>
-                            <a href="admin/shop.html" class="cs_action_icon">
+                            <a href="shop.html" class="cs_action_icon">
                                 <span>
                                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_395_1018)">
@@ -237,8 +214,9 @@
             </div>
         </div>
     </header>
+    <!-- end heading files -->
     {{$dynamic}}
-    <!-- Start footer -->
+    <!-- footer files -->
     <footer class="cs_footer cs_style_1">
         <div class="cs_height_130 cs_height_lg_80"></div>
         <div class="container">
@@ -246,11 +224,11 @@
                 <div class="row">
                     <div class="col-xxl-3 col-lg-3">
                         <div class="cs_footer_widget cs_text_widget">
-                            <img src="/admin/assets/img/logo_dark.svg" alt="Logo" />
+                            <img src="admin/assets/img/logo_dark.svg" alt="Logo" />
                             <p>
                                 Discover endless delights your one stop eCommerce destination.
                             </p>
-                            <img src="/admin/assets/img/payment_method.svg" alt="Payment" />
+                            <img src="admin/assets/img/payment_method.svg" alt="Payment" />
                         </div>
                     </div>
                     <div class="col-xxl-7 offset-xxl-2 offset-lg-1 col-lg-8">
@@ -261,11 +239,11 @@
                                         Get to know
                                     </h3>
                                     <ul>
-                                        <li><a href="admin/about.html">About Us</a></li>
-                                        <li><a href="admin/shop.html">Product</a></li>
-                                        <li><a href="admin/blog_details.html">Press</a></li>
-                                        <li><a href="admin/blog.html">Blog</a></li>
-                                        <li><a href="admin/contact.html">Contact Us</a></li>
+                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="shop.html">Product</a></li>
+                                        <li><a href="blog_details.html">Press</a></li>
+                                        <li><a href="blog.html">Blog</a></li>
+                                        <li><a href="contact.html">Contact Us</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -275,10 +253,10 @@
                                         Customer Service
                                     </h3>
                                     <ul>
-                                        <li><a href="admin/#">Help Center</a></li>
-                                        <li><a href="admin/#">Shipping & Delivery</a></li>
-                                        <li><a href="admin/#">Exchange & Return</a></li>
-                                        <li><a href="admin/#">Payment Method</a></li>
+                                        <li><a href="#">Help Center</a></li>
+                                        <li><a href="#">Shipping & Delivery</a></li>
+                                        <li><a href="#">Exchange & Return</a></li>
+                                        <li><a href="#">Payment Method</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -291,7 +269,7 @@
                                         <li>Call : +00(244)14-50-774</li>
                                         <li>
                                             Email :
-                                            <a href="admin/https://static.laralink.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="a8c1c6cec7e8dbc9dcdcc1d1c9db86cbc7c5">[email&#160;protected]</a>
+                                            <a href="https://static.laralink.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="a8c1c6cec7e8dbc9dcdcc1d1c9db86cbc7c5">[email&#160;protected]</a>
                                         </li>
                                         <li>Mon – Fri : 11 am – 9 pm</li>
                                     </ul>
@@ -309,38 +287,39 @@
                 </div>
                 <div>
                     <ul class="cs_footer_menu_widget_2">
-                        <li><a href="admin/#">Privacy Policy</a></li>
-                        <li><a href="admin/#">Terms of Use</a></li>
-                        <li><a href="admin/#">Legal</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Legal</a></li>
                     </ul>
                 </div>
                 <div>
                     <div class="cs_social_links">
-                        <a href="admin/https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="admin/https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="admin/https://twitter.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-                        <a href="admin/https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-    <!-- End footer -->
+    <!-- end footer -->
+
     <!-- Start scroll up button -->
     <div class="cs_scrollup_btn" id="cs_scroll_btn">
         <i class="fa-solid fa-arrow-up"></i>
     </div>
     <!-- End scroll up button -->
-    <!-- All script files -->
-    <script data-cfasync="false" src="/admin/../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script src="/admin/assets/js/jquery-3.6.0.min.js"></script>
-    <script src="/admin/assets/js/jquery.slick.min.js"></script>
-    <script src="/admin/assets/js/isotope.pkg.min.js"></script>
-    <script src="/admin/assets/js/jquery-ui.min.js"></script>
-    <script src="/admin/assets/js/animated-headline.js"></script>
-    <script src="/admin/assets/js/main.js"></script>
-</body>
 
+    <!--  all script files -->
+    <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="admin/assets/js/jquery-3.6.0.min.js"></script>
+    <script src="admin/assets/js/jquery.slick.min.js"></script>
+    <script src="admin/assets/js/isotope.pkg.min.js"></script>
+    <script src="admin/assets/js/jquery-ui.min.js"></script>
+    <script src="admin/assets/js/animated-headline.js"></script>
+    <script src="admin/assets/js/main.js"></script>
+</body>
 <!-- Mirrored from static.laralink.com/html/sattiyas/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 06 Dec 2023 13:33:59 GMT -->
 
 </html>

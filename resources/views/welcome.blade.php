@@ -1,8 +1,7 @@
 <x-guest-layout>
     <x-slot name="dynamic">
+
         <div class="cs_height_140 cs_height_lg_80"></div>
-        <!-- End header -->
-        <!-- Start hero -->
         <section class="cs_slider position-relative">
             <div class="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="800" data-center="0" data-slides-per-view="1" data-fade-slide="0">
                 <div class="cs_slider_wrapper">
@@ -64,8 +63,6 @@
                 <div class="cs_pagination cs_style_1"></div>
             </div>
         </section>
-        <!-- End hero -->
-        <!-- Start icon boxes -->
         <section>
             <div class="container-fluid">
                 <div class="cs_height_75 cs_height_lg_75"></div>
@@ -175,8 +172,6 @@
                 <div class="cs_height_75 cs_height_lg_75"></div>
             </div>
         </section>
-        <!-- End icon boxes -->
-        <!-- Start category -->
         <div class="container-fluid">
             <div class="cs_grid_list">
                 <div class="cs_category cs_style_1">
@@ -208,8 +203,6 @@
                 </div>
             </div>
         </div>
-        <!-- End category -->
-        <!-- Start featured Items -->
         <section>
             <div class="cs_height_120 cs_height_lg_70"></div>
             <div class="container">
@@ -1292,8 +1285,6 @@
             </div>
             <div class="cs_height_135 cs_height_lg_80"></div>
         </section>
-        <!-- End featured Items -->
-        <!-- Start moving text slider -->
         <div class="cs_moving_text_wrap cs_style_1 cs_fs_37 cs_semibold cs_white_color cs_accent_bg">
             <div class="cs_moving_text_in">
                 <div class="cs_moving_text">
@@ -1334,8 +1325,6 @@
                 </div>
             </div>
         </div>
-        <!-- End moving text slider -->
-        <!-- Start collection 1 -->
         <section>
             <div class="cs_height_140 cs_height_lg_80"></div>
             <div class="cs_card cs_style_1">
@@ -1366,8 +1355,6 @@
             </div>
             <div class="cs_height_120 cs_height_lg_70"></div>
         </section>
-        <!-- End collection 1 -->
-        <!-- Start new item store -->
         <section class="cs_slider position-relative">
             <div class="container">
                 <div class="cs_section_heading cs_style_1">
@@ -1519,8 +1506,6 @@
                 <div class="cs_pagination cs_style_2 cs_hide_desktop"></div>
             </div>
         </section>
-        <!-- End new item store -->
-        <!-- Start partners -->
         <div class="cs_height_135 cs_height_lg_75"></div>
         <div class="container">
             <div class="cs_slider">
@@ -1561,8 +1546,6 @@
             </div>
         </div>
         <div class="cs_height_140 cs_height_lg_80"></div>
-        <!-- End partners -->
-        <!-- Start testimonial -->
         <section class="cs_gray_bg">
             <div class="cs_height_120 cs_height_lg_70"></div>
             <div class="container">
@@ -1658,8 +1641,6 @@
             </div>
             <div class="cs_height_135 cs_height_lg_80"></div>
         </section>
-        <!-- End testimonial -->
-        <!-- Start collection 2 -->
         <section>
             <div class="cs_height_140 cs_height_lg_80"></div>
             <div class="cs_card cs_style_2">
@@ -1688,8 +1669,6 @@
             </div>
             <div class="cs_height_120 cs_height_lg_70"></div>
         </section>
-        <!-- End collection 2 -->
-        <!-- Start top selling store -->
         <section class="cs_slider position-relative">
             <div class="container">
                 <div class="cs_section_heading cs_style_1">
@@ -1842,14 +1821,12 @@
                 <div class="cs_pagination cs_style_2 cs_hide_desktop"></div>
             </div>
         </section>
-        <!-- End top selling store -->
-        <!-- Start Newsletter -->
         <section>
             <div class="cs_height_134 cs_height_lg_80"></div>
             <div class="container">
                 <div class="cs_newsletter cs_style_1 cs_radius_15 cs_bg_filed">
-                    <div class="cs_newsletter_thumb cs_bg_filed" data-src="admin/assets/img/newsletter.jpg"></div>
-                    <!-- <div class="cs_newsletter_thumb cs_bg_filed" data-src="admin/assets/img/newsletter.jpg"></div> -->
+                    <div class="cs_newsletter_thumb cs_bg_filed" data-src="assets/img/newsletter.jpg"></div>
+                    <!-- <div class="cs_newsletter_thumb cs_bg_filed" data-src="assets/img/newsletter.jpg"></div> -->
                     <div class="cs_newsletter_shape"></div>
                     <div class="cs_newsletter_text ms-auto">
                         <h2 class="cs_newsletter_title cs_fs_50 cs_bold cs_white_color">
@@ -1869,8 +1846,6 @@
             </div>
             <div class="cs_height_140 cs_height_lg_80"></div>
         </section>
-        <!-- End Newsletter -->
-        <!-- Start instagram -->
         <div class="cs_instagram">
             <a href="https://www.instagram.com/" target="_blank" class="position-relative cs_instagram_item">
                 <div class="cs_instagram_thumb position-relative">
