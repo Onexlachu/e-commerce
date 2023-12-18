@@ -1012,7 +1012,7 @@
     <!-- Top Bar End -->
     <!-- Top Bar End -->
 
-    {{dashboard}}
+    {{$dashboard}}
     <!-- end page-wrapper -->
 
     <!-- Javascript  -->

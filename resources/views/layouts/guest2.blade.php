@@ -1,82 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- head files-->
+
+<!-- Mirrored from static.laralink.com/html/sattiyas/home-v2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 06 Dec 2023 13:34:12 GMT -->
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="Laralink" />
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Laralink">
     <title>Sattiyas - Fashion & Jewelry eCommerce HTML5 Template</title>
     <!-- Favicon -->
-    <link rel="shortcut icon" href="admin/assets/img/FAVICON.svg" />
+    <link rel="shortcut icon" href="admin/assets/img/FAVICON.svg">
     <!-- Plugins css -->
-    <link rel="stylesheet" href="admin/assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="admin/assets/css/fontawesome.min.css" />
-    <link rel="stylesheet" href="admin/assets/css/slick.css" />
-    <link rel="stylesheet" href="admin/assets/css/jquery-ui.min.css" />
-    <link rel="stylesheet" href="admin/assets/css/animated-headline.css" />
+    <link rel="stylesheet" href="admin/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="admin/assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="admin/assets/css/slick.css">
+    <link rel="stylesheet" href="admin/assets/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="admin/assets/css/animated-headline.css">
     <!-- Custom css -->
-    <link rel="stylesheet" href="admin/assets/css/style.css" />
+    <link rel="stylesheet" href="admin/assets/css/style.css">
 </head>
-<!-- end head files -->
 
 <body>
-
-    <!-- heading files -->
-    <header class="cs_site_header cs_style_1 cs_color_1 cs_primary_bg cs_site_header_full_width cs_sticky_header">
-        <div class="cs_top_header cs_primary_color">
-            <div class="container-fluid">
-                <div class="cs_top_header_in">
-                    <div class="cs_top_header_left">
-                        <p class="cs_medium mb-0">
-                            Support :
-                            <a href="https://static.laralink.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="8bfbf9e4effee8ffcbf8eaffffe2f2eaf8a5e8e4e6">[email&#160;protected]</a>
-                        </p>
-                    </div>
-                    <div class="cs_top_header_center">
-                        <div class="cd-headline slide">
-                            <span class="cd-words-wrapper text-center">
-                                <b class="cs_text_slide cs_medium is-visible">
-                                    <span>100% Happy return policy</span>
-                                    <span>
-                                        <a href="about.html" class="cs_text_slide_btn">Learn More</a>
-                                    </span>
-                                </b>
-                                <b class="cs_text_slide cs_medium">
-                                    <span>Big sale offer with 50%</span>
-                                    <span>
-                                        <a href="shop.html" class="cs_text_slide_btn">Learn More</a>
-                                    </span>
-                                </b>
-                                <b class="cs_text_slide cs_medium">
-                                    <span>New arrival item for you</span>
-                                    <span>
-                                        <a href="shop.html" class="cs_text_slide_btn">Learn More</a>
-                                    </span>
-                                </b>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="cs_top_header_right">
-                        <p class="cs_medium mb-0">Mon-Fri Open : 11:00 - 19:00</p>
-                    </div>
-                </div>
-            </div>
+    <!-- Start Preloader -->
+    <div class="cs_perloader">
+        <div class="cs_perloader_in">
+            <svg class="cs_cart_animation" role="img" aria-label="Sattiyas Preloader" viewBox="0 0 128 128" width="128px" height="128px" xmlns="http://www.w3.org/2000/svg">
+                <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="8">
+                    <g class="cs_cart_track" stroke="hsla(0,10%,10%,0.1)">
+                        <polyline points="4,4 21,4 26,22 124,22 112,64 35,64 39,80 106,80" />
+                        <circle cx="43" cy="111" r="13" />
+                        <circle cx="102" cy="111" r="13" />
+                    </g>
+                    <g class="cs_cart_lines" stroke="currentColor">
+                        <polyline class="cs_cart_top" points="4,4 21,4 26,22 124,22 112,64 35,64 39,80 106,80" stroke-dasharray="338 338" stroke-dashoffset="-338" />
+                        <g class="cs_cart_wheel_1" transform="rotate(-90,43,111)">
+                            <circle class="cs_cart_wheel_stroke" cx="43" cy="111" r="13" stroke-dasharray="81.68 81.68" stroke-dashoffset="81.68" />
+                        </g>
+                        <g class="cs_cart_wheel_2" transform="rotate(90,102,111)">
+                            <circle class="cs_cart_wheel_stroke" cx="102" cy="111" r="13" stroke-dasharray="81.68 81.68" stroke-dashoffset="81.68" />
+                        </g>
+                    </g>
+                </g>
+            </svg>
+            <span class="cs_perloader_text">Welcome to Sattiyas. Loading...</span>
         </div>
+    </div>
+    <!-- End Preloader -->
+    <!-- Start header -->
+    <header class="cs_site_header cs_style_1 cs_primary_color cs_site_header_full_width cs_sticky_header">
         <div class="cs_main_header">
             <div class="container-fluid">
                 <div class="cs_main_header_in">
                     <div class="cs_main_header_left">
                         <a class="cs_site_branding" href="index.html">
-                            <img src="admin/assets/img/logo.svg" alt="Logo" />
+                            <img src="admin/assets/img/logo_dark.svg" alt="Logo">
                         </a>
                     </div>
                     <div class="cs_main_header_center">
                         <div class="cs_nav cs_medium">
                             <ul class="cs_nav_list">
                                 <li class="menu-item-has-children">
-                                    <a href="/">Home</a>
+                                    <a href="index.html">Home</a>
                                     <ul>
                                         <li><a href="/">Fashion V1</a></li>
                                         <li><a href="{{route('fashion_v2')}}">Fashion V2</a></li>
@@ -88,9 +73,7 @@
                                     <ul>
                                         <li><a href="shop.html">All Product</a></li>
                                         <li><a href="shop_sidebar.html">Shop Sidebar</a></li>
-                                        <li>
-                                            <a href="product_details.html">Product Details</a>
-                                        </li>
+                                        <li><a href="product_details.html">Product Details</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="blog.html">Blog</a></li>
@@ -114,12 +97,8 @@
                                                 <li><a href="shop.html">Women's Clothing</a></li>
                                                 <li><a href="shop.html">Men's Clothing</a></li>
                                                 <li><a href="shop.html">Kids' Clothing</a></li>
-                                                <li>
-                                                    <a href="shop.html">Shoes (Men, Women, Kids)</a>
-                                                </li>
-                                                <li>
-                                                    <a href="shop.html">Accessories (e.g., hats, scarves)</a>
-                                                </li>
+                                                <li><a href="shop.html">Shoes (Men, Women, Kids)</a></li>
+                                                <li><a href="shop.html">Accessories (e.g., hats, scarves)</a></li>
                                             </ul>
                                         </li>
                                         <li class="menu-item-has-children">
@@ -128,24 +107,18 @@
                                                 <li><a href="shop.html">Activewear</a></li>
                                                 <li><a href="shop.html">Formal Wear</a></li>
                                                 <li><a href="shop.html">Casual Wear</a></li>
-                                                <li>
-                                                    <a href="shop.html">Outerwear (Jackets, Coats)</a>
-                                                </li>
+                                                <li><a href="shop.html">Outerwear (Jackets, Coats)</a></li>
                                                 <li><a href="shop.html">Swimwear</a></li>
                                             </ul>
                                         </li>
                                         <li class="menu-item-has-children">
                                             <a href="#">Category Three</a>
                                             <ul>
-                                                <li>
-                                                    <a href="shop.html">Lingerie and Sleepwear</a>
-                                                </li>
+                                                <li><a href="shop.html">Lingerie and Sleepwear</a></li>
                                                 <li><a href="shop.html">Maternity Wear</a></li>
                                                 <li><a href="shop.html">Plus Size Clothing</a></li>
                                                 <li><a href="shop.html">Sustainable Fashion</a></li>
-                                                <li>
-                                                    <a href="shop.html">Vintage/Second-hand Clothing</a>
-                                                </li>
+                                                <li><a href="shop.html">Vintage/Second-hand Clothing</a></li>
                                             </ul>
                                         </li>
                                         <li class="menu-item-has-children">
@@ -171,7 +144,7 @@
                             <button type="button" class="cs_action_icon cs_header_search_btn">
                                 <i class="fa-solid fa-magnifying-glass"></i>
                             </button>
-                            <a href="#" class="cs_action_icon cs_modal_btn">
+                            <a href="#" class="cs_action_icon cs_modal_btn" data-modal="register_modal">
                                 <i class="fa-regular fa-circle-user"></i>
                             </a>
                             <a href="shop.html" class="cs_action_icon">
@@ -200,12 +173,10 @@
                 <div class="cs_header_search_in">
                     <div class="cs_hero_search_heading">
                         <h3>What are you looking for?</h3>
-                        <button class="cs_header_search_close" type="button">
-                            <i class="fa-solid fa-xmark"></i>
-                        </button>
+                        <button class="cs_header_search_close" type="button"><i class="fa-solid fa-xmark"></i></button>
                     </div>
                     <form action="#" class="cs_header_search_form">
-                        <input type="text" placeholder="Search..." />
+                        <input type="text" placeholder="Search...">
                         <button type="submit">
                             <i class="fa-solid fa-magnifying-glass"></i>
                         </button>
@@ -214,30 +185,25 @@
             </div>
         </div>
     </header>
-    <!-- end heading files -->
-    {{$dynamic}}
-    <!-- footer files -->
-    <footer class="cs_footer cs_style_1">
+    {{$dynamic2}}
+    <!-- Start footer -->
+    <footer class="cs_footer cs_style_1 cs_primary_bg">
         <div class="cs_height_130 cs_height_lg_80"></div>
         <div class="container">
             <div class="cs_footer_main">
                 <div class="row">
                     <div class="col-xxl-3 col-lg-3">
                         <div class="cs_footer_widget cs_text_widget">
-                            <img src="admin/assets/img/logo_dark.svg" alt="Logo" />
-                            <p>
-                                Discover endless delights your one stop eCommerce destination.
-                            </p>
-                            <img src="admin/assets/img/payment_method.svg" alt="Payment" />
+                            <img src="admin/assets/img/logo.svg" alt="Logo">
+                            <p>Discover endless delights your one stop eCommerce destination.</p>
+                            <img src="admin/assets/img/payment_method_1.png" alt="Payment">
                         </div>
                     </div>
                     <div class="col-xxl-7 offset-xxl-2 offset-lg-1 col-lg-8">
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="cs_footer_widget cs_menu_widget">
-                                    <h3 class="cs_footer_widget_title cs_fs_21 cs_semibold">
-                                        Get to know
-                                    </h3>
+                                    <h3 class="cs_footer_widget_title cs_fs_21 cs_semibold">Get to know</h3>
                                     <ul>
                                         <li><a href="about.html">About Us</a></li>
                                         <li><a href="shop.html">Product</a></li>
@@ -249,9 +215,7 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="cs_footer_widget cs_menu_widget">
-                                    <h3 class="cs_footer_widget_title cs_fs_21 cs_semibold">
-                                        Customer Service
-                                    </h3>
+                                    <h3 class="cs_footer_widget_title cs_fs_21 cs_semibold">Customer Service</h3>
                                     <ul>
                                         <li><a href="#">Help Center</a></li>
                                         <li><a href="#">Shipping & Delivery</a></li>
@@ -262,15 +226,10 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="cs_footer_widget cs_menu_widget">
-                                    <h3 class="cs_footer_widget_title cs_fs_21 cs_semibold">
-                                        Contact Information
-                                    </h3>
+                                    <h3 class="cs_footer_widget_title cs_fs_21 cs_semibold">Contact Information</h3>
                                     <ul class="cs_contact_info">
                                         <li>Call : +00(244)14-50-774</li>
-                                        <li>
-                                            Email :
-                                            <a href="https://static.laralink.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="a8c1c6cec7e8dbc9dcdcc1d1c9db86cbc7c5">[email&#160;protected]</a>
-                                        </li>
+                                        <li>Email : <a href="https://static.laralink.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="7f161119103f0c1e0b0b16061e0c511c1012">[email&#160;protected]</a></li>
                                         <li>Mon – Fri : 11 am – 9 pm</li>
                                     </ul>
                                 </div>
@@ -281,9 +240,7 @@
             </div>
             <div class="cs_footer_bottom">
                 <div>
-                    <p class="cs_copywrite_text mb-0">
-                        Copyright & 2023, All rights reserved.
-                    </p>
+                    <p class="cs_copywrite_text mb-0">Copyright & 2023, All rights reserved.</p>
                 </div>
                 <div>
                     <ul class="cs_footer_menu_widget_2">
@@ -303,15 +260,13 @@
             </div>
         </div>
     </footer>
-    <!-- end footer -->
-
+    <!-- End footer -->
     <!-- Start scroll up button -->
     <div class="cs_scrollup_btn" id="cs_scroll_btn">
         <i class="fa-solid fa-arrow-up"></i>
     </div>
     <!-- End scroll up button -->
-
-    <!--  all script files -->
+    <!-- All script files -->
     <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script src="admin/assets/js/jquery-3.6.0.min.js"></script>
     <script src="admin/assets/js/jquery.slick.min.js"></script>
@@ -320,6 +275,7 @@
     <script src="admin/assets/js/animated-headline.js"></script>
     <script src="admin/assets/js/main.js"></script>
 </body>
-<!-- Mirrored from static.laralink.com/html/sattiyas/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 06 Dec 2023 13:33:59 GMT -->
+
+<!-- Mirrored from static.laralink.com/html/sattiyas/home-v2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 06 Dec 2023 13:34:23 GMT -->
 
 </html>

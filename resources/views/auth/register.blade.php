@@ -7,7 +7,7 @@
                     <div class="card-header">
                         <h3 style="text-align: center;">Register</h3>
                     </div><!--end card-header-->
-                    <form action="{{Route('register')}}" method="POST">
+                    <form action="{{route('register')}}" method="POST">
                         @csrf
                         <div class="card-body">
                             <div class="row">
