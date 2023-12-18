@@ -89,7 +89,7 @@
                                         <li><a href="shop.html">All Product</a></li>
                                         <li><a href="shop_sidebar.html">Shop Sidebar</a></li>
                                         <li>
-                                            <a href="product_details.html">Product Details</a>
+                                            <a href="{{route('product_details')}}">Product Details</a>
                                         </li>
                                     </ul>
                                 </li>
