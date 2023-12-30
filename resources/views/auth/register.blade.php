@@ -35,11 +35,11 @@
                                         <x-input-error :messages="$errors->get('password')" />
                                     </div>
                                     <div class="mb-3 row">
-                                        <label for="example-number-input" class="col-sm-2 col-form-label text-end">confirm password</label>
+                                        <label for="example-number-input" class="col-sm-2 col-form-label text-end">password confirmation</label>
                                         <div class="col-sm-10">
-                                            <input class="form-control" type="password" name="confirm_password">
+                                            <input class="form-control" type="password" name="password_confirmation">
                                         </div>
-                                        <x-input-error :messages="$errors->get('confirm_password')" />
+                                        <x-input-error :messages="$errors->get('password_confirmation')" />
                                     </div>
 
                                 </div>
