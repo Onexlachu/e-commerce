@@ -7,10 +7,6 @@ use Illuminate\Http\Request;
 class dashboardController extends Controller
 {
 
-    public function Product()
-    {
-        return view('product.product');
-    }
 
     public function Fashion()
     {

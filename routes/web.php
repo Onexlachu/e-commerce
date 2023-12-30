@@ -20,7 +20,7 @@ Route::get('/', function () {
 });
 
 
-Route::get('/dashboard', function () {
+Route::post('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
@@ -33,7 +33,6 @@ Route::middleware('auth')->group(function () {
 Route::middleware('auth', 'role')->prefix('admin')->group(function () {
     Route::get('fashion-v2', [dashboardController::class, 'Fashion'])->name('fashion_v2');
     Route::get('jewelry', [dashboardController::class, 'Jewelry'])->name('jewelry');
-    Route::get('product-details', [dashboardController::class, 'Product'])->name('product_details');
 });
 
 require __DIR__ . '/auth.php';

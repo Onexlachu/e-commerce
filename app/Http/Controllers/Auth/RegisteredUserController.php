@@ -37,12 +37,15 @@ class RegisteredUserController extends Controller
         ]);
 
         dd($request->All());
+
+
         $user = User::create([
             'name' => $request->name,
             'email' => $request->email,
             'role' => 'Admin',
             'password' => Hash::make($request->password),
         ]);
+
 
         event(new Registered($user));
 

@@ -1,5 +1,5 @@
 <x-guest-layout>
-    <x-slot name="dynamic">
+    <x-slot name="admin">
 
         <div class="cs_height_140 cs_height_lg_80"></div>
         <section class="cs_slider position-relative">

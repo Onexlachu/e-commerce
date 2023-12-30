@@ -1,5 +1,5 @@
 <x-guest-layout>
-    <x-slot name="dynamic">
+    <x-slot name="admin">
 
         <div class="row" style="margin-top: 150px; margin-left:250px">
             <div class="col-md-9">
@@ -7,7 +7,7 @@
                     <div class="card-header">
                         <h3 style="text-align: center;">Register</h3>
                     </div><!--end card-header-->
-                    <form action="{{route('register')}}" method="POST">
+                    <form action="{{route('register')}}" method="post">
                         @csrf
                         <div class="card-body">
                             <div class="row">

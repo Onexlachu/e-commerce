@@ -89,7 +89,7 @@
                                         <li><a href="shop.html">All Product</a></li>
                                         <li><a href="shop_sidebar.html">Shop Sidebar</a></li>
                                         <li>
-                                            <a href="{{route('product_details')}}">Product Details</a>
+                                            <a href="product_details.html">Product Details</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -215,7 +215,7 @@
         </div>
     </header>
     <!-- end heading files -->
-    {{$dynamic}}
+    {{$admin}}
     <!-- footer files -->
     <footer class="cs_footer cs_style_1">
         <div class="cs_height_130 cs_height_lg_80"></div>
