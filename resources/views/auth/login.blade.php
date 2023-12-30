@@ -1,47 +1,35 @@
 <x-guest-layout>
     <x-slot name="admin">
-        <!-- Session Status -->
-        <x-auth-session-status class="mb-4" :status="session('status')" />
+        <section id="content_main" class="clearfix">
+            <div class="container">
+                <div class="row main_content"><!-- begin content -->
+                    <div class="page-full col-md-12 post-5076 page type-page status-publish hentry" id="content">
+                        <div class="jl_cat_mid_title">
+                            <h3 class="categories-title title">My Account</h3>
+                        </div>
+                        <div class="content_single_page post-5076 page type-page status-publish hentry">
+                            <div class="content_page_padding">
+                                <div class="woocommerce">
+                                    <div class="woocommerce-notices-wrapper"></div>
+                                    <h2>Login</h2>
+                                    <form action="{{route('login')}}" class="woocommerce-form woocommerce-form-login login" method="post">
 
-        <form method="POST" action="{{ route('login') }}">
-            @csrf
-
-            <!-- Email Address -->
-            <div>
-                <x-input-label for="email" :value="__('Email')" />
-                <x-text-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus autocomplete="username" />
-                <x-input-error :messages="$errors->get('email')" class="mt-2" />
+                                        <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide"><label for="username">Email&nbsp;<span class="required">*</span></label><input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="email" id="username" autocomplete="email">
+                                        </p>
+                                        <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide"><label for="password">Password&nbsp;<span class="required">*</span></label><span class="password-input"><input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password"><span class="show-password-input"></span></span>
+                                        </p>
+                                        <p class="form-row"><label class="woocommerce-form__label woocommerce-form__label-for-checkbox woocommerce-form-login__rememberme"><input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever"> <span>Remember me</span></label>
+                                            <button type="submit" class="woocommerce-button button woocommerce-form-login__submit" name="login"> Register</button>
+                                        </p>
+                                        <p class="woocommerce-LostPassword lost_password"><a href="#">Lost your password?</a></p>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <!-- Password -->
-            <div class="mt-4">
-                <x-input-label for="password" :value="__('Password')" />
-
-                <x-text-input id="password" class="block mt-1 w-full" type="password" name="password" required autocomplete="current-password" />
-
-                <x-input-error :messages="$errors->get('password')" class="mt-2" />
-            </div>
-
-            <!-- Remember Me -->
-            <div class="block mt-4">
-                <label for="remember_me" class="inline-flex items-center">
-                    <input id="remember_me" type="checkbox" class="rounded border-gray-300 text-indigo-600 shadow-sm focus:ring-indigo-500" name="remember">
-                    <span class="ml-2 text-sm text-gray-600">{{ __('Remember me') }}</span>
-                </label>
-            </div>
-
-            <div class="flex items-center justify-end mt-4">
-                @if (Route::has('password.request'))
-                <a class="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" href="{{ route('password.request') }}">
-                    {{ __('Forgot your password?') }}
-                </a>
-                @endif
-
-                <x-primary-button class="ml-3">
-                    {{ __('Log in') }}
-                </x-primary-button>
-            </div>
-        </form>
+        </section><!-- end content -->
     </x-slot>
 
 </x-guest-layout>

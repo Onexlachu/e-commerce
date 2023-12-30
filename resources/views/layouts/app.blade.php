@@ -14,14 +14,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- App favicon -->
-    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link rel="shortcut icon" src="/dashboard/assets/images/favicon.ico">
 
 
 
     <!-- App css -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-    <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
+    <link src="/dashboard/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link src="/dashboard/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link src="/dashboard/assets/css/app.min.css" rel="stylesheet" type="text/css" />
 
 </head>
 
@@ -31,7 +31,7 @@
         <div class="main-icon-menu">
             <a href="index.html" class="logo logo-metrica d-block text-center">
                 <span>
-                    <img src="assets/images/logo-sm.png" alt="logo-small" class="logo-sm">
+                    <img src="/dashboard/assets/images/logo-sm.png" alt="logo-small" class="logo-sm">
                 </span>
             </a>
             <div class="main-icon-menu-body">
@@ -70,7 +70,7 @@
             </div><!--end main-icon-menu-body-->
             <div class="pro-metrica-end">
                 <a href="#" class="profile">
-                    <img src="assets/images/users/user-4.jpg" alt="profile-user" class="rounded-circle thumb-sm">
+                    <img src="/dashboard/assets/images/users/user-4.jpg" alt="profile-user" class="rounded-circle thumb-sm">
                 </a>
             </div><!--end pro-metrica-end-->
         </div>
@@ -81,8 +81,8 @@
             <div class="topbar-left">
                 <a href="index.html" class="logo">
                     <span>
-                        <img src="assets/images/logo-dark.png" alt="logo-large" class="logo-lg logo-dark">
-                        <img src="assets/images/logo.png" alt="logo-large" class="logo-lg logo-light">
+                        <img src="/dashboard/assets/images/logo-dark.png" alt="logo-large" class="logo-lg logo-dark">
+                        <img src="/dashboard/assets/images/logo.png" alt="logo-large" class="logo-lg logo-light">
                     </span>
                 </a><!--end logo-->
             </div><!--end topbar-left-->
@@ -792,13 +792,13 @@
             <ul class="list-unstyled topbar-nav float-end mb-0">
                 <li class="dropdown">
                     <a class="nav-link dropdown-toggle arrow-none nav-icon" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-                        <img src="assets/images/flags/us_flag.jpg" alt="" class="thumb-xxs rounded-circle">
+                        <img src="/dashboard/assets/images/flags/us_flag.jpg" alt="" class="thumb-xxs rounded-circle">
                     </a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#"><img src="assets/images/flags/us_flag.jpg" alt="" height="15" class="me-2">English</a>
-                        <a class="dropdown-item" href="#"><img src="assets/images/flags/spain_flag.jpg" alt="" height="15" class="me-2">Spanish</a>
-                        <a class="dropdown-item" href="#"><img src="assets/images/flags/germany_flag.jpg" alt="" height="15" class="me-2">German</a>
-                        <a class="dropdown-item" href="#"><img src="assets/images/flags/french_flag.jpg" alt="" height="15" class="me-2">French</a>
+                        <a class="dropdown-item" href="#"><img src="/dashboard/assets/images/flags/us_flag.jpg" alt="" height="15" class="me-2">English</a>
+                        <a class="dropdown-item" href="#"><img src="/dashboard/assets/images/flags/spain_flag.jpg" alt="" height="15" class="me-2">Spanish</a>
+                        <a class="dropdown-item" href="#"><img src="/dashboard/assets/images/flags/germany_flag.jpg" alt="" height="15" class="me-2">German</a>
+                        <a class="dropdown-item" href="#"><img src="/dashboard/assets/images/flags/french_flag.jpg" alt="" height="15" class="me-2">French</a>
                     </div>
                 </li><!--end topbar-language-->
 
@@ -817,7 +817,7 @@
                                 <small class="float-end text-muted ps-2">2 min ago</small>
                                 <div class="media">
                                     <div class="avatar-md bg-soft-primary">
-                                        <img src="assets/images/users/user-1.jpg" alt="" class="thumb-sm rounded-circle">
+                                        <img src="/dashboard/assets/images/users/user-1.jpg" alt="" class="thumb-sm rounded-circle">
                                     </div>
                                     <div class="media-body align-self-center ms-2 text-truncate">
                                         <h6 class="my-0 fw-normal text-dark">Your order is placed</h6>
@@ -830,7 +830,7 @@
                                 <small class="float-end text-muted ps-2">10 min ago</small>
                                 <div class="media">
                                     <div class="avatar-md bg-soft-primary">
-                                        <img src="assets/images/users/user-4.jpg" alt="" class="thumb-sm rounded-circle">
+                                        <img src="/dashboard/assets/images/users/user-4.jpg" alt="" class="thumb-sm rounded-circle">
                                     </div>
                                     <div class="media-body align-self-center ms-2 text-truncate">
                                         <h6 class="my-0 fw-normal text-dark">Meeting with designers</h6>
@@ -843,7 +843,7 @@
                                 <small class="float-end text-muted ps-2">40 min ago</small>
                                 <div class="media">
                                     <div class="avatar-md bg-soft-primary">
-                                        <img src="assets/images/users/user-2.jpg" alt="" class="thumb-sm rounded-circle">
+                                        <img src="/dashboard/assets/images/users/user-2.jpg" alt="" class="thumb-sm rounded-circle">
                                     </div>
                                     <div class="media-body align-self-center ms-2 text-truncate">
                                         <h6 class="my-0 fw-normal text-dark">UX 3 Task complete.</h6>
@@ -856,7 +856,7 @@
                                 <small class="float-end text-muted ps-2">1 hr ago</small>
                                 <div class="media">
                                     <div class="avatar-md bg-soft-primary">
-                                        <img src="assets/images/users/user-5.jpg" alt="" class="thumb-sm rounded-circle">
+                                        <img src="/dashboard/assets/images/users/user-5.jpg" alt="" class="thumb-sm rounded-circle">
                                     </div>
                                     <div class="media-body align-self-center ms-2 text-truncate">
                                         <h6 class="my-0 fw-normal text-dark">Your order is placed</h6>
@@ -869,7 +869,7 @@
                                 <small class="float-end text-muted ps-2">2 hrs ago</small>
                                 <div class="media">
                                     <div class="avatar-md bg-soft-primary">
-                                        <img src="assets/images/users/user-3.jpg" alt="" class="thumb-sm rounded-circle">
+                                        <img src="/dashboard/assets/images/users/user-3.jpg" alt="" class="thumb-sm rounded-circle">
                                     </div>
                                     <div class="media-body align-self-center ms-2 text-truncate">
                                         <h6 class="my-0 fw-normal text-dark">Payment Successfull</h6>
@@ -972,7 +972,7 @@
                 <li class="dropdown">
                     <a class="nav-link dropdown-toggle nav-user" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
                         <div class="d-flex align-items-center">
-                            <img src="assets/images/users/user-4.jpg" alt="profile-user" class="rounded-circle me-2 thumb-sm" />
+                            <img src="/dashboard/assets/images/users/user-4.jpg" alt="profile-user" class="rounded-circle me-2 thumb-sm" />
                             <div>
                                 <small class="d-none d-md-block font-11">Admin</small>
                                 <span class="d-none d-md-block fw-semibold font-12">Maria Gibson <i class="mdi mdi-chevron-down"></i></span>
@@ -1018,14 +1018,14 @@
     <!-- Javascript  -->
     <!-- vendor js -->
 
-    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/libs/simplebar/simplebar.min.js"></script>
-    <script src="assets/libs/feather-icons/feather.min.js"></script>
+    <script src="/dashboard/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/dashboard/assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="/dashboard/assets/libs/feather-icons/feather.min.js"></script>
 
-    <script src="assets/libs/apexcharts/apexcharts.min.js"></script>
-    <script src="assets/js/pages/analytics-index.init.js"></script>
+    <script src="/dashboard/assets/libs/apexcharts/apexcharts.min.js"></script>
+    <script src="/dashboard/assets/js/pages/analytics-index.init.js"></script>
     <!-- App js -->
-    <script src="assets/js/app.js"></script>
+    <script src="/dashboard/assets/js/app.js"></script>
 
 </body>
 <!--end body-->
