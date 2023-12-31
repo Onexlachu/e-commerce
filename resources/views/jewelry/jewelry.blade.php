@@ -1,5 +1,5 @@
-<x-guest2-layout>
-    <x-slot name="dynamic2">
+<x-guest-layout>
+    <x-slot name="admin">
         <div class="cs_height_80 cs_height_lg_80"></div>
         <!-- End header -->
         <!-- Start hero -->
@@ -920,4 +920,4 @@
         </section>
         <!-- End Newsletter -->
     </x-slot>
-</x-guest2-layout>
+</x-guest-layout>

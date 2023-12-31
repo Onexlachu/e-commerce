@@ -20,7 +20,7 @@ Route::get('/', function () {
 });
 
 
-Route::post('/dashboard', function () {
+Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
